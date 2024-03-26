@@ -1,0 +1,35 @@
+# 0 "C:\\Users\\kevro\\EE1301\\BigP\\src\\BigP.ino"
+# 1 "C:\\Users\\kevro\\EE1301\\BigP\\src//"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "C:\\Users\\kevro\\EE1301\\BigP\\src\\BigP.ino"
+int data;
+
+void setup() {
+
+
+  Serial.begin(9600);
+
+
+  pinMode(D7, OUTPUT);
+}
+
+void loop() {
+
+
+
+
+
+
+  data = analogRead(A0);
+
+
+  Serial.print("My Infrared Laser Reads: ");
+  Serial.print(data);
+  Serial.println(";");
+
+
+
+
+
+}
